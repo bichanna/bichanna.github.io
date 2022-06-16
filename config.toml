@@ -2,9 +2,20 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "bichanna's blog"
 theme = 'PaperMod'
+ShowToc = true
+paginate = 6
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
 defaultTheme = "auto"
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+author = ['Nobuharu Shimazu']
+comments = true
 
 [params.homeInfoParams]
 Title = "Hi there, I'm Nobuharu Shimazu 👋"
@@ -17,3 +28,36 @@ url = "https://github.com/bichanna"
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com/nobuharushimazu"
+
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 10
+
+[assets]
+favicon = "/static/favicon.ico"
+favicon16x16 = "/static/favicon-16x16.png"
+favicon32x32 = "/static/favicon-32x32.png"
+apple_touch_icon = "/static/apple-touch-icon.png"
+safari_pinned_tab = "/static/safari-pinned-tab.svg"
+
