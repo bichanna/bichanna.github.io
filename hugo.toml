@@ -1,6 +1,6 @@
 baseURL = "https://bichanna.github.io/"
 languageCode = "en-us"
-title = "Nobuharu (Nobu) Shimazu"
+title = "Nobuharu Shimazu"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -42,7 +42,7 @@ buildExpired = false
   # ---- Profile-mode landing page (image + subtitle + buttons + social icons) ----
   [params.profileMode]
     enabled = true
-    title = "Nobu Shimazu"
+    title = "Nobu Shimazu / bichanna"
     subtitle = "Systems & programming-languages developer. I build compilers, runtimes, and developer tools — in C, Rust, and Python."
     # imageUrl = "img/avatar.png"          # optional: drop a ~140x140 image at static/img/avatar.png and uncomment
     imageTitle = "Nobu Shimazu"
