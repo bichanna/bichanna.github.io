@@ -1,0 +1,108 @@
+baseURL = "https://bichanna.github.io/"
+languageCode = "en-us"
+title = "Nobuharu (Nobu) Shimazu"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# JSON output on the home page is required for PaperMod's Fuse.js search.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"                       # enables SEO tags, OpenGraph, Twitter cards, schema
+  author = "Nobu Shimazu"
+  description = "Nobu Shimazu — systems and programming-languages developer. Compilers, runtimes, and developer tools."
+  keywords = ["Nobu Shimazu", "programming languages", "compilers", "virtual machines", "systems programming", "Rust", "C"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"                    # auto | light | dark
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true               # copy button on code blocks
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  hidemeta = false
+  mainSections = ["posts"]                 # which section feeds "recent posts"
+
+  # ---- Profile-mode landing page (image + subtitle + buttons + social icons) ----
+  [params.profileMode]
+    enabled = true
+    title = "Nobu Shimazu"
+    subtitle = "Systems & programming-languages developer. I build compilers, runtimes, and developer tools — in C, Rust, and Python."
+    # imageUrl = "img/avatar.png"          # optional: drop a ~140x140 image at static/img/avatar.png and uncomment
+    imageTitle = "Nobu Shimazu"
+    imageWidth = 140
+    imageHeight = 140
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "projects"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "posts"
+
+    [[params.profileMode.buttons]]
+      name = "Resume"
+      url = "resume.pdf"
+
+  # ---- Social icons (shown in profile mode). Names map to built-in icons. ----
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bichanna"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/nobuharu-shimazu-637342239/"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:nobu.bichanna@gmail.com"
+
+# ---- Top navigation ----
+[[menu.main]]
+  name = "Resume"
+  url = "/resume.pdf"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 4
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 5
+
+# ---- Syntax highlighting ----
+[markup]
+  [markup.highlight]
+    noClasses = false   # keep PaperMod's theme-aware (light/dark) code colors
+    # To force catppuccin-mocha instead, set noClasses = true and style = "catppuccin-mocha"
+    # (note: a fixed style won't switch with light/dark mode)
