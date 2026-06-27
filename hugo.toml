@@ -41,17 +41,13 @@ buildExpired = false
 
   # ---- Profile-mode landing page (image + subtitle + buttons + social icons) ----
   [params.profileMode]
-    enabled = true
-    title = "Nobu Shimazu / bichanna"
-    subtitle = "Systems & programming-languages developer. I build compilers, runtimes, and developer tools — in C, Rust, and Python."
+    enabled = false
+    title = "Nobuharu Shimazu"
+    subtitle = "Hi, I'm **Nobu**—also known as **bichanna** online"
     # imageUrl = "img/avatar.png"          # optional: drop a ~140x140 image at static/img/avatar.png and uncomment
     imageTitle = "Nobu Shimazu"
     imageWidth = 140
     imageHeight = 140
-
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "projects"
 
     [[params.profileMode.buttons]]
       name = "Blog"
@@ -79,11 +75,6 @@ buildExpired = false
   name = "Resume"
   url = "/resume.pdf"
   weight = 1
-
-[[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 2
 
 [[menu.main]]
   name = "Blog"
