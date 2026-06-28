@@ -16,4 +16,4 @@ If you want to look at my projects, see what I'm writing about, or just get in t
 * [nobu.bichanna@gmail.com](mailto:nobu.bichanna@gmail.com)
 * [Resume](/resume.pdf)
 
-Otherwise, feel free to shamelessly plug into my blog posts listed right below.
+Otherwise, feel free to plug into my blog posts listed right below.
