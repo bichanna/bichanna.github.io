@@ -4,7 +4,7 @@
 title: "The same code printed 10 on Linux and 0 on a Mac"
 date: 2026-07-20
 draft: false
-summary: "First post"
+summary: "This post's about a Dray compiler bug regarding how variadic arguments work on different platforms."
 tags: ["open-source", "c", "raylib", "compiler", "rust", "dray"]
 ---
 
