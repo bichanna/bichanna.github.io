@@ -15,5 +15,6 @@ If you want to look at my projects, see what I'm writing about, or just get in t
 * [LinkedIn](https://www.linkedin.com/in/nobuharu-shimazu-637342239/)
 * [nobu.bichanna@gmail.com](mailto:nobu.bichanna@gmail.com)
 * [Resume](/resume.pdf)
+* [RSS](/posts/index.xml)
 
 Otherwise, feel free to plug into my blog posts listed right below.
